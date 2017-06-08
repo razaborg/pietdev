@@ -1,0 +1,274 @@
+.toolbar {
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-top-color:    #b2b2b2;
+	border-bottom-color: #000000;
+	border-left-color:   #b2b2b2;
+	border-right-color:  #000000;
+}
+
+.toolbar-title {
+	height: 18px;
+	background-color: #0080ff;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: #f5f5f5;
+	cursor: default;
+}
+
+.toolbar-body {
+	position: absolute;
+	left: 0;
+	top: 18px;
+	right: 0;
+	bottom: 0;
+	background-color: #e0e0e0;
+}
+
+
+#toolbar-color {
+	left: 100px;
+	top: 25px;
+	width: 65px;
+	height: 223px;
+}
+
+#toolbar-canvas {
+	left: 175px;
+	top: 113px;
+	width: 224px;
+	height: 224px;
+}
+
+#toolbar-tools {
+	left: 100px;
+	top: 258px;
+	width: 65px;
+	height: 190px;
+}
+
+#toolbar-file {
+	left: 25px;
+	top: 25px;
+	width: 65px;
+	height: 82px;
+}
+
+#toolbar-debug {
+	left: 25px;
+	top: 117px;
+	width: 65px;
+	height: 331px;
+}
+
+#toolbar-buffers {
+	left: 175px;
+	top: 25px;
+	width: 200px;
+	height: 78px;
+}
+
+
+.coloritem,
+.coloritemwide {
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-top-color:    #000000;
+	border-bottom-color: #b2b2b2;
+	border-left-color:   #000000;
+	border-right-color:  #b2b2b2;
+	font-size: 1px;
+	cursor: pointer;
+}
+.coloritem {
+	width: 17px;
+	height: 17px;
+}
+.coloritemwide {
+	width: 27px;
+	height: 17px;
+}
+.colorbox {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-size: 1px;
+}
+.image-flip {
+	position: absolute;
+	top: 152px;
+	left: 43px;
+	cursor: pointer;
+}
+
+
+.tool-button {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	border-style: solid;
+	border-width: 1px;
+	border-top-color:    #b2b2b2;
+	border-bottom-color: #000000;
+	border-left-color:   #b2b2b2;
+	border-right-color:  #000000;
+	cursor: pointer;
+	font-size: 1px;
+}
+.tool-selected {
+	border-top-color:    #000000;
+	border-bottom-color: #b2b2b2;
+	border-left-color:   #000000;
+	border-right-color:  #b2b2b2;
+}
+
+
+.subtoolbar {
+	position: absolute;
+	width: 59px;
+	left: 3px;
+}
+
+.subtoolbar-title {
+	height: 14px;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+	font-size: 9px;
+	cursor: default;
+}
+
+.subtoolbar-body {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 14px;
+	border-style: solid;
+	border-width: 1px;
+	border-top-color:    #000000;
+	border-bottom-color: #b2b2b2;
+	border-left-color:   #000000;
+	border-right-color:  #b2b2b2;
+}
+
+
+.minitext,
+.minitext-right, 
+.minitext-info,
+.minitext2 {
+	position: absolute;
+	height: 11px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 9px;
+	cursor: default;
+}
+.minitext {
+	width: 24px;
+	left: 2px;
+	text-align: right;
+}
+.minitext-right {
+	width: 24px;
+	left: 28px;
+	text-align: left;
+}
+.minitext-info {
+	width: 53px;
+	left: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+.minitext2 {
+	width: 50px;
+	left: 2px;
+	text-align: right;
+}
+
+.miniinput {
+	position: absolute;
+	width: 24px;
+	height: 12px;
+	left: 28px;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: left;
+	font-size: 7px;
+	border-width: 1px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.buffer-in,
+.buffer-out {
+	position: absolute;
+	width: 140px;
+	left: 58px;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: left;
+	font-size: 10px;
+	border-width: 1px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.buffer-in {
+	height: 17px;
+	top: 1px;
+}
+
+.buffer-out {
+	height: 39px;
+	top: 18px;
+	cursor: default;
+	background-color: #ebebee;
+}
+
+.stack {
+	position: absolute;
+	top: 2px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 8px;
+	background-color: #e0e0e0;
+	overflow: hidden;
+	cursor: default;
+}
+#stack-left {
+	width: 33px;
+	height: 150px;
+	left: 2px;
+	text-align: right;
+}
+#stack-right {
+	width: 15px;
+	height: 150px;
+	left: 38px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.codel {
+	position: absolute;
+	cursor: pointer;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-size: 1px;
+	background-color: white;
+}
+
+
+.file-command {
+	height: 15px;
+	margin: 5px 2px;
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
